@@ -13,7 +13,7 @@
 - **BAP.py** - 推荐代理核心实现，包含五步推荐工作流
 - **Main.py** - 主执行脚本，处理数据加载和实验运行
 - **.env** - API密钥配置文件
-- **优化描述值/** - 商品描述优化工具集
+- **Optimize Description/** - 商品描述优化工具集
 
 ## 快速开始
 
@@ -53,7 +53,7 @@ python Main.py --dataset amazon --domain books --agent_type dynamic --Descriptio
 - **样本采样**：正负样本交叉排列
 - **结果记录**：日志文件、指标统计
 
-### 优化描述值/ - 工具集
+### Optimize Description/ - 工具集
 1. - `process_descriptions.py` - 处理描述格式
 2. - `generate_descriptions.py` - 生成商品描述
 3. - `merge_descriptions.py` - 合并描述数据
